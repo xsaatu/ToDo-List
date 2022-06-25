@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    <title>To-Do List</title>
+</head>
+<body class="bg-slate-900">
+    <section class="px-12 pt-3">
+        <div class="container bg-white">
+            <div class="flex justify-center items-center">
+                <div class="header">
+                    <h1 class="text-2xl font-bold py-3">To-Do List</h1>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="text-field pt-5 pb-10">
+                    <form action="">
+                        <input name="text" id="textInput" cols="30" rows="2" class=" p-2" placeholder="Isi Text"></input>
+                        
+                        <button type="button" id="btn-add" class="bg-tiga font-semibold text-white p-2 rounded-md">Add!</button>
+                    </form>
+                </div>
+            </div>
+            <div id="text" class="flex flex-col px-4 pb-3"></div>
+        </div>
+    </section>
+
+
+
+    <script src="dist/js/script.js"></script>
+</body>
+</html>
